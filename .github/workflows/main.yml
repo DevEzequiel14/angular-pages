@@ -34,7 +34,7 @@ jobs:
       # Ensure SPA fallback works on GitHub Pages by copying index.html to 404.html
       - name: Provide SPA fallback for Pages
         run: |
-          cp -f dist/angular-pages/browser/index.html dist/angular-pages/browser/404.html
+          cp -f dist/angular-pages/browser/index.csr.html dist/angular-pages/browser/404.html
       # Deploy to GitHub pages
       - name: Deploy to Pages
         uses: crazy-max/ghaction-github-pages@v4.2.0
