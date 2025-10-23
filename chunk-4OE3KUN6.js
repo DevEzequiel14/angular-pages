@@ -1,0 +1,1 @@
+import{Aa as n,Na as a,Oa as s,Qa as p}from"./chunk-OVUCNHZI.js";var t=class e{static \u0275fac=function(o){return new(o||e)};static \u0275cmp=n({type:e,selectors:[["app-about"]],decls:2,vars:0,template:function(o,m){o&1&&(a(0,"p"),p(1,"about works!"),s())},encapsulation:2})};var l=[{path:"",component:t}];export{l as routesAbout};
